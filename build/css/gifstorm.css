@@ -1,0 +1,14 @@
+body {
+  font-family: Helvetica, Arial, sans-serif; }
+
+a {
+  text-decoration: none;
+  color: white;
+  background: black;
+  padding: 0 0.25em; }
+  a:hover {
+    color: black;
+    background: white; }
+
+img {
+  display: none; }

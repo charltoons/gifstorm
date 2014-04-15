@@ -1,0 +1,32 @@
+{
+  "name": "gifstorm",
+  "version": "0.0.0",
+  "description": "just some gifs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/charltoons/gifstorm.git"
+  },
+  "keywords": [
+    "gif",
+    "storm",
+    "gifstorm"
+  ],
+  "author": "Charlton Roberts <charltonroberts@gmail.com>",
+  "license": "The Artistic License 2.0",
+  "bugs": {
+    "url": "https://github.com/charltoons/gifstorm/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-jade": "~0.11.0",
+    "browserify": "~3.41.0",
+    "grunt-browserify": "~2.0.7",
+    "coffeeify": "~0.6.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1"
+  }
+}
