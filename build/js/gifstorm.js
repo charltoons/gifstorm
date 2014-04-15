@@ -14,20 +14,25 @@ module.exports=[
     }
 ]
 },{}],2:[function(require,module,exports){
-var GIFSTORM, gifs;
+var GIFSTORM, gifs,
+  __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };
 
 gifs = require('../../gifs.json');
 
 GIFSTORM = (function() {
   function GIFSTORM(gifs) {
     this.gifs = gifs;
+    this.on_next = __bind(this.on_next, this);
     this.body = document.body;
     this.gif_path = './gifs/';
     this.exhibit = document.getElementById('exhibit');
     this.title = document.getElementById('title');
     this.artist = document.getElementById('artist');
     this.source = document.getElementById('source');
-    this.load(this.gifs[0]);
+    this.next = document.getElementById('next');
+    this.current = 0;
+    this.next.onclick = this.on_next;
+    this.load(this.gifs[this.current]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
   }
 
@@ -44,6 +49,13 @@ GIFSTORM = (function() {
     this.title.innerText = gif.title;
     this.artist.innerText = 'by ' + gif.artist;
     return this.source.setAttribute('href', gif.source);
+  };
+
+  GIFSTORM.prototype.on_next = function() {
+    if (++this.current >= this.gifs.length) {
+      this.current = 0;
+    }
+    return this.load(this.gifs[this.current]);
   };
 
   GIFSTORM.prototype.get_path = function(filename) {

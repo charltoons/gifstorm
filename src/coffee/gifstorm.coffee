@@ -9,8 +9,12 @@ class GIFSTORM
         @title = document.getElementById 'title'
         @artist = document.getElementById 'artist'
         @source = document.getElementById 'source'
+        @next = document.getElementById 'next'
+        @current = 0
 
-        @load @gifs[0]
+        @next.onclick = @on_next
+
+        @load @gifs[@current]
 
         console.log '\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n'
 
@@ -29,6 +33,9 @@ class GIFSTORM
         @title.innerText = gif.title
         @artist.innerText = 'by ' + gif.artist
         @source.setAttribute 'href', gif.source
+    on_next: =>
+        if ++@current >= @gifs.length then @current = 0
+        @load @gifs[@current]
 
     get_path: (filename)-> @gif_path + filename
 
