@@ -1,6 +1,12 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
     {
+        "title": "82176388789",
+        "artist": "Qil",
+        "file": "82176388789.gif",
+        "source": "http://electricobjects.tumblr.com/post/82217158977/82176388789-by-qil"
+    },
+    {
         "title": "Kick The Can",
         "artist": "Unknown",
         "file": "kick_the_can.gif",
@@ -18,8 +24,8 @@ GIFSTORM = (function() {
     this.body = document.body;
     this.gif_path = './gifs/';
     this.exhibit = document.getElementById('exhibit');
-    this.title = document.getElementById('artist');
-    this.artist = document.getElementById('title');
+    this.title = document.getElementById('title');
+    this.artist = document.getElementById('artist');
     this.source = document.getElementById('source');
     this.load(this.gifs[0]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
@@ -36,7 +42,7 @@ GIFSTORM = (function() {
     })(this);
     this.img.src = path;
     this.title.innerText = gif.title;
-    this.artist.innerText = gif.artist;
+    this.artist.innerText = 'by ' + gif.artist;
     return this.source.setAttribute('href', gif.source);
   };
 

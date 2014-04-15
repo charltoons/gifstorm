@@ -6,8 +6,8 @@ class GIFSTORM
         @body = document.body
         @gif_path = './gifs/'
         @exhibit = document.getElementById 'exhibit'
-        @title = document.getElementById 'artist'
-        @artist = document.getElementById 'title'
+        @title = document.getElementById 'title'
+        @artist = document.getElementById 'artist'
         @source = document.getElementById 'source'
 
         @load @gifs[0]
@@ -27,7 +27,7 @@ class GIFSTORM
 
         # set the exhibit info
         @title.innerText = gif.title
-        @artist.innerText = gif.artist
+        @artist.innerText = 'by ' + gif.artist
         @source.setAttribute 'href', gif.source
 
     get_path: (filename)-> @gif_path + filename
