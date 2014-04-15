@@ -17,6 +17,10 @@ GIFSTORM = (function() {
     this.gifs = gifs;
     this.body = document.body;
     this.gif_path = './gifs/';
+    this.exhibit = document.getElementById('exhibit');
+    this.title = document.getElementById('artist');
+    this.artist = document.getElementById('title');
+    this.source = document.getElementById('source');
     this.load(this.gifs[0]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
   }
@@ -30,7 +34,10 @@ GIFSTORM = (function() {
         return _this.body.style.backgroundImage = 'url(' + path + ')';
       };
     })(this);
-    return this.img.src = path;
+    this.img.src = path;
+    this.title.innerText = gif.title;
+    this.artist.innerText = gif.artist;
+    return this.source.setAttribute('href', gif.source);
   };
 
   GIFSTORM.prototype.get_path = function(filename) {

@@ -2,8 +2,14 @@ doctype html
 html(lang="en")
   head
     title GIFSTORM.biz
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=VT323', type='text/css')
-    link(rel="stylesheet", href="./build/css/gifstorm.css")
+    link(rel='stylesheet', type='text/css', href='http://fonts.googleapis.com/css?family=VT323')
+    link(rel="stylesheet", type='text/css', href="./build/css/gifstorm.css")
   body
     h1: a(href="http://gifstorm.biz") GIFSTORM.biz
+    #exhibit
+      a#source.right(href="#")
+        h2#title.right
+        h3#artist.right
+      button.right Next
+
     script(type="text/javascript", src="./build/js/gifstorm.js")

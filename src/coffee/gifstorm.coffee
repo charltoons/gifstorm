@@ -5,6 +5,10 @@ class GIFSTORM
     constructor: (@gifs)->
         @body = document.body
         @gif_path = './gifs/'
+        @exhibit = document.getElementById 'exhibit'
+        @title = document.getElementById 'artist'
+        @artist = document.getElementById 'title'
+        @source = document.getElementById 'source'
 
         @load @gifs[0]
 
@@ -20,6 +24,11 @@ class GIFSTORM
 
         # load the image in a dummy html <img> so we know when its loaded
         @img.src = path
+
+        # set the exhibit info
+        @title.innerText = gif.title
+        @artist.innerText = gif.artist
+        @source.setAttribute 'href', gif.source
 
     get_path: (filename)-> @gif_path + filename
 
