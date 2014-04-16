@@ -24,18 +24,38 @@ class GIFSTORM
 
         # set callback for when the gif loads
         @img.onload = =>
+            @is_loading false
             @body.style.backgroundImage = 'url(' + path + ')'
 
+        @is_loading true
+
         # load the image in a dummy html <img> so we know when its loaded
-        @img.src = path
+        setTimeout (=> 
+            @img.src = path
+        ), 5000
 
         # set the exhibit info
         @title.innerText = gif.title
         @artist.innerText = 'by ' + gif.artist
         @source.setAttribute 'href', gif.source
+
+    # fired with the "NEXT" button is pressed
     on_next: =>
+
+        # if we're at the end, go back around
         if ++@current >= @gifs.length then @current = 0
+
+        # load the next gif
         @load @gifs[@current]
+
+    is_loading: (is_currently_loading)->
+
+        if is_currently_loading
+            @body.classList.add('is-loading')
+
+        else
+            @body.classList.remove('is-loading')
+
 
     get_path: (filename)-> @gif_path + filename
 

@@ -42,10 +42,16 @@ GIFSTORM = (function() {
     path = this.get_path(gif.file);
     this.img.onload = (function(_this) {
       return function() {
+        _this.is_loading(false);
         return _this.body.style.backgroundImage = 'url(' + path + ')';
       };
     })(this);
-    this.img.src = path;
+    this.is_loading(true);
+    setTimeout(((function(_this) {
+      return function() {
+        return _this.img.src = path;
+      };
+    })(this)), 5000);
     this.title.innerText = gif.title;
     this.artist.innerText = 'by ' + gif.artist;
     return this.source.setAttribute('href', gif.source);
@@ -56,6 +62,14 @@ GIFSTORM = (function() {
       this.current = 0;
     }
     return this.load(this.gifs[this.current]);
+  };
+
+  GIFSTORM.prototype.is_loading = function(is_currently_loading) {
+    if (is_currently_loading) {
+      return this.body.classList.add('is-loading');
+    } else {
+      return this.body.classList.remove('is-loading');
+    }
   };
 
   GIFSTORM.prototype.get_path = function(filename) {
