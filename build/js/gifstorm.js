@@ -47,6 +47,12 @@ module.exports=[
         "artist": "Fredric Furstenbach",
         "file": "circles.gif",
         "source": "http://cargocollective.com/furstenbach/NovGifs"
+    },
+    {
+        "title": "Stool Move",
+        "artist": "sheepfilms",
+        "file": "stool.gif",
+        "source": "http://sheepfilms.co.uk/2009/01/11/stool-move/"
     }
 ]
 
