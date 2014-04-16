@@ -7,10 +7,10 @@ module.exports=[
         "source": "http://electricobjects.tumblr.com/post/82217158977/82176388789-by-qil"
     },
     {
-        "title": "Kick The Can",
-        "artist": "Unknown",
+        "title": "Loop",
+        "artist": "typicalhope",
         "file": "kick_the_can.gif",
-        "source": "#"
+        "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
     }
 ]
 },{}],2:[function(require,module,exports){
