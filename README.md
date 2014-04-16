@@ -11,3 +11,10 @@ Want to submit a gif?
 - Add the details to gifs.json (source can just be where you found it)
 - Run `grunt` to build everything
 - Submit a pull request
+
+## Todo
+
+- [] Put a background behind the exhibition
+- [] randomize the array so its always different
+- [] show gifstorm when your mouse goes to the bottom right
+- [] previous button?
