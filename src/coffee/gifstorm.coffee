@@ -30,9 +30,9 @@ class GIFSTORM
         @is_loading true
 
         # load the image in a dummy html <img> so we know when its loaded
-        setTimeout (=> 
-            @img.src = path
-        ), 5000
+        # setTimeout (=>  # used to test the loading screen
+        @img.src = path
+        # ), 5000
 
         # set the exhibit info
         @title.innerText = gif.title

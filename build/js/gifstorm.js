@@ -7,9 +7,15 @@ module.exports=[
         "source": "http://electricobjects.tumblr.com/post/82217158977/82176388789-by-qil"
     },
     {
+        "title": "Blah Blah Blah",
+        "artist": "Art Wells",
+        "file": "blah.gif",
+        "source": "http://electricobjects.tumblr.com/post/82026331493/blah-blah-blah-by-art-wells"
+    },
+    {
         "title": "Loop",
         "artist": "typicalhope",
-        "file": "kick_the_can.gif",
+        "file": "loop.gif",
         "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
     }
 ]
@@ -47,11 +53,7 @@ GIFSTORM = (function() {
       };
     })(this);
     this.is_loading(true);
-    setTimeout(((function(_this) {
-      return function() {
-        return _this.img.src = path;
-      };
-    })(this)), 5000);
+    this.img.src = path;
     this.title.innerText = gif.title;
     this.artist.innerText = 'by ' + gif.artist;
     return this.source.setAttribute('href', gif.source);
