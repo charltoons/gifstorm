@@ -94,7 +94,8 @@ GIFSTORM = (function() {
     if (++this.current >= this.gifs.length) {
       this.current = 0;
     }
-    return this.load(this.gifs[this.current]);
+    this.load(this.gifs[this.current]);
+    return window.analytics.track('Next');
   };
 
   GIFSTORM.prototype.is_loading = function(is_currently_loading) {

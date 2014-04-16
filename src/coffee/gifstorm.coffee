@@ -48,6 +48,8 @@ class GIFSTORM
         # load the next gif
         @load @gifs[@current]
 
+        window.analytics.track 'Next'
+
     is_loading: (is_currently_loading)->
 
         if is_currently_loading
