@@ -61,7 +61,7 @@ class GIFSTORM
 
 
 document.onreadystatechange = ->
-    
+
     if document.readyState == "complete"
 
         GIFSTORM = new GIFSTORM gifs
