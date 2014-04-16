@@ -13,6 +13,12 @@ module.exports=[
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     },
     {
+        "title": "Untitled",
+        "artist": "Limor Fried",
+        "file": "dots.gif",
+        "source": "https://plus.google.com/+ladyada/posts/iqQNjuGiowT"
+    },
+    {
         "title": "Untitled (#NovGifs)",
         "artist": "Fredric Furstenbach",
         "file": "boxes.gif",
@@ -42,13 +48,8 @@ module.exports=[
         "file": "snowflakes.gif",
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     }
-    // {
-    //     "title": "Loop",
-    //     "artist": "typicalhope",
-    //     "file": "loop.gif",
-    //     "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
-    // }
 ]
+
 },{}],2:[function(require,module,exports){
 var GIFSTORM, gifs,
   __bind = function(fn, me){ return function(){ return fn.apply(me, arguments); }; };

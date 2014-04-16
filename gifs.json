@@ -12,6 +12,12 @@
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     },
     {
+        "title": "Untitled",
+        "artist": "Limor Fried",
+        "file": "dots.gif",
+        "source": "https://plus.google.com/+ladyada/posts/iqQNjuGiowT"
+    },
+    {
         "title": "Untitled (#NovGifs)",
         "artist": "Fredric Furstenbach",
         "file": "boxes.gif",
@@ -41,10 +47,4 @@
         "file": "snowflakes.gif",
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     }
-    // {
-    //     "title": "Loop",
-    //     "artist": "typicalhope",
-    //     "file": "loop.gif",
-    //     "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
-    // }
 ]
