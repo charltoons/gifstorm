@@ -13,6 +13,18 @@ module.exports=[
         "source": "http://electricobjects.tumblr.com/post/82026331493/blah-blah-blah-by-art-wells"
     },
     {
+        "title": "Untitled",
+        "artist": "David Szakaly",
+        "file": "DavidSzakaly.gif",
+        "source": "http://electricobjects.tumblr.com/post/80854449846/david-szakaly"
+    },
+    {
+        "title": "Snowflakes",
+        "artist": "Sum It",
+        "file": "snowflakes.gif",
+        "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
+    },
+    {
         "title": "Loop",
         "artist": "typicalhope",
         "file": "loop.gif",
