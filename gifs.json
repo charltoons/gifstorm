@@ -3,7 +3,19 @@
         "title": "82176388789",
         "artist": "Qil",
         "file": "82176388789.gif",
-        "source": "http://electricobjects.tumblr.com/post/82217158977/82176388789-by-qil"
+        "source": "http://imgur.com/mJ7cXhA"
+    },
+    {
+        "title": "Negative Space",
+        "artist": "Unknown",
+        "file": "plus.gif",
+        "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
+    },
+    {
+        "title": "Untitled (#NovGifs)",
+        "artist": "Fredric Furstenbach",
+        "file": "boxes.gif",
+        "source": "http://cargocollective.com/furstenbach/NovGifs"
     },
     {
         "title": "Blah Blah Blah",
@@ -18,15 +30,21 @@
         "source": "http://electricobjects.tumblr.com/post/80854449846/david-szakaly"
     },
     {
+        "title": "Untitled (#NovGifs)",
+        "artist": "Fredric Furstenbach",
+        "file": "raindrops.gif",
+        "source": "http://cargocollective.com/furstenbach/NovGifs"
+    },
+    {
         "title": "Snowflakes",
         "artist": "Sum It",
         "file": "snowflakes.gif",
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
-    },
-    {
-        "title": "Loop",
-        "artist": "typicalhope",
-        "file": "loop.gif",
-        "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
     }
+    // {
+    //     "title": "Loop",
+    //     "artist": "typicalhope",
+    //     "file": "loop.gif",
+    //     "source": "http://typicalhope.tumblr.com/post/80019118714/loop"
+    // }
 ]
