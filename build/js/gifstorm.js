@@ -13,6 +13,12 @@ module.exports=[
         "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     },
     {
+        "title": "triduo",
+        "artist": "mr. div",
+        "file": "triduo.gif",
+        "source": "http://mrdiv.tumblr.com/post/23105246175/triduo"
+    },
+    {
         "title": "Untitled",
         "artist": "Limor Fried",
         "file": "dots.gif",
@@ -31,22 +37,16 @@ module.exports=[
         "source": "http://electricobjects.tumblr.com/post/82026331493/blah-blah-blah-by-art-wells"
     },
     {
-        "title": "Untitled",
-        "artist": "David Szakaly",
-        "file": "DavidSzakaly.gif",
-        "source": "http://electricobjects.tumblr.com/post/80854449846/david-szakaly"
+        "title": "Untitled (#NovGifs)",
+        "artist": "Fredric Furstenbach",
+        "file": "trippy.gif",
+        "source": "http://cargocollective.com/furstenbach/NovGifs"
     },
     {
         "title": "Untitled (#NovGifs)",
         "artist": "Fredric Furstenbach",
-        "file": "raindrops.gif",
+        "file": "circles.gif",
         "source": "http://cargocollective.com/furstenbach/NovGifs"
-    },
-    {
-        "title": "Snowflakes",
-        "artist": "Sum It",
-        "file": "snowflakes.gif",
-        "source": "http://mathematica.stackexchange.com/questions/16881/how-to-create-animated-snowfall"
     }
 ]
 
