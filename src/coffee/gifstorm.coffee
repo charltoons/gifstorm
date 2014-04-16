@@ -18,6 +18,8 @@ class GIFSTORM
 
         console.log '\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n'
 
+        window.analytics.track 'Initial Load'
+
     load: (gif)->
         @img = new Image
         path = @get_path gif.file

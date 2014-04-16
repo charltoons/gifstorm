@@ -71,6 +71,7 @@ GIFSTORM = (function() {
     this.next.onclick = this.on_next;
     this.load(this.gifs[this.current]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
+    window.analytics.track('Initial Load');
   }
 
   GIFSTORM.prototype.load = function(gif) {
