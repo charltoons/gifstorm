@@ -3,8 +3,14 @@ module.exports=[
     {
         "title": "Folding Triangles",
         "artist": "Unknown",
-        "file": "triangles.gif",
+        "file": "folding_triangles.gif",
         "source": "http://24.media.tumblr.com/44fb759b34960723c4d38203f28cddcd/tumblr_n65g4igsYY1relaado1_400.gif"
+    }
+    ,{
+        "title": "Untitled",
+        "artist": "Sebbe",
+        "file": "triangles.gif",
+        "source": "http://imgur.com/Hx1DGxq"
     },
     {
         "title": "Circle, Square, Triangle, Fish",
