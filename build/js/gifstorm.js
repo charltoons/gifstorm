@@ -7,6 +7,12 @@ module.exports=[
         "source": "http://superphazed.tumblr.com/post/92285437803"
     },
     {
+        "title": "Cascade",
+        "artist": "Reinier Kaper",
+        "file": "cascade.gif",
+        "source": "http://codepen.io/TheDutchCoder/pen/kslwg"
+    },
+    {
         "title": "Pencil",
         "artist": "Mrzyk & Moriceau",
         "file": "pencil.gif",
