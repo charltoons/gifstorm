@@ -1,10 +1,17 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
     {
+<<<<<<< HEAD
         "title": "Line Waves",
         "artist": "FlowerPowa74",
         "file": "line_waves.gif",
         "source": "http://www.reddit.com/r/loadingicon/comments/2dyyl4/line_waves_oc/"
+=======
+        "title": "Catblaster",
+        "artist": "Phazed",
+        "file": "catblaster.gif",
+        "source": "http://superphazed.tumblr.com/post/92285437803"
+>>>>>>> f4ce12d55131c9dd13ea2fb94cfcb65ea57071c7
     },
     {
         "title": "Cascade",
