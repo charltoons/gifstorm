@@ -1,6 +1,24 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
     {
+        "title": "Umbrella Dance",
+        "artist": "bigblueboo",
+        "file": "umbrellas.gif",
+        "source": "http://www.reddit.com/r/perfectloops/comments/2j4ftf/umbrella_dance/"
+    },
+    {
+        "title": "Crosshairs",
+        "artist": "RedAmmo9",
+        "file": "crosshairs.gif",
+        "source": "http://www.reddit.com/r/loadingicon/comments/2esbra/crosshairs_oc/"
+    },
+    {
+        "title": "Line Waves",
+        "artist": "FlowerPowa74",
+        "file": "line_waves.gif",
+        "source": "http://www.reddit.com/r/loadingicon/comments/2dyyl4/line_waves_oc/"
+    },
+    {
         "title": "Line Waves",
         "artist": "FlowerPowa74",
         "file": "line_waves.gif",
@@ -29,12 +47,6 @@ module.exports=[
         "artist": "Neil Sanders",
         "file": "pixelated_chicken_army.gif",
         "source": "http://neilsanders.tumblr.com/"
-    },
-    {
-        "title": "First Animation",
-        "artist": "RedAmmo9",
-        "file": "ukraine.gif",
-        "source": "http://www.reddit.com/r/animation/comments/26ygbx/my_first_animation_would_love_to_know_what/"
     },
     {
         "title": "Folding Triangles",
