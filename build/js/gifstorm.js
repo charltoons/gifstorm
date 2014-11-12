@@ -154,6 +154,7 @@ GIFSTORM = (function() {
     this.load(this.gifs[this.current]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
     window.analytics.track('Initial Load');
+    hooks('GIFSTORM.biz', 'Somebody loaded the page', '1yjvfcdngK');
   }
 
   GIFSTORM.prototype.load = function(gif) {
@@ -178,7 +179,8 @@ GIFSTORM = (function() {
       this.current = 0;
     }
     this.load(this.gifs[this.current]);
-    return window.analytics.track('Next');
+    window.analytics.track('Next');
+    return hooks('GIFSTORM.biz', 'Somebody clicked next', '1yjvfcdngK');
   };
 
   GIFSTORM.prototype.is_loading = function(is_currently_loading) {
