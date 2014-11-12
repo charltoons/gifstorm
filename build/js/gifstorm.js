@@ -17,12 +17,6 @@ module.exports=[
         "source": "http://www.reddit.com/r/perfectloops/comments/2j4ftf/umbrella_dance/"
     },
     {
-        "title": "Crosshairs",
-        "artist": "RedAmmo9",
-        "file": "crosshairs.gif",
-        "source": "http://www.reddit.com/r/loadingicon/comments/2esbra/crosshairs_oc/"
-    },
-    {
         "title": "Line Waves",
         "artist": "FlowerPowa74",
         "file": "line_waves.gif",
