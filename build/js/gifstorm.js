@@ -1,6 +1,11 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 module.exports=[
     {
+        "title": "Octopus-ish-guy Swim Cycle",
+        "artist": "Joshua Schaeffer",
+        "file": "octopus.gif",
+        "source": "https://dribbble.com/shots/1808172-Octopus-ish-guy-Swim-Cycle"
+    },{
         "title": "Bubbles",
         "artist": "EpicFrySauce",
         "file": "bubbles.gif",
@@ -148,6 +153,7 @@ GIFSTORM = (function() {
     this.load(this.gifs[this.current]);
     console.log('\n\n\nGIFSTORM.biz\nby CHARLTON ROBERTS\nhttp://charlton.io\n@charltoons\n\n\n');
     window.analytics.track('Initial Load');
+    hooks('GIFSTORM.biz', 'Somebody loaded the page', '1yjvfcdngK');
   }
 
   GIFSTORM.prototype.load = function(gif) {
@@ -172,7 +178,8 @@ GIFSTORM = (function() {
       this.current = 0;
     }
     this.load(this.gifs[this.current]);
-    return window.analytics.track('Next');
+    window.analytics.track('Next');
+    return hooks('GIFSTORM.biz', 'Somebody clicked next', '1yjvfcdngK');
   };
 
   GIFSTORM.prototype.is_loading = function(is_currently_loading) {

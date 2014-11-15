@@ -20,6 +20,8 @@ class GIFSTORM
 
         window.analytics.track 'Initial Load'
 
+        hooks('GIFSTORM.biz', 'Somebody loaded the page', '1yjvfcdngK')
+
     load: (gif)->
         @img = new Image
         path = @get_path gif.file
@@ -51,6 +53,8 @@ class GIFSTORM
         @load @gifs[@current]
 
         window.analytics.track 'Next'
+
+        hooks('GIFSTORM.biz', 'Somebody clicked next', '1yjvfcdngK')
 
     is_loading: (is_currently_loading)->
 
