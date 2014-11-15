@@ -6,11 +6,6 @@ module.exports=[
         "file": "octopus.gif",
         "source": "https://dribbble.com/shots/1808172-Octopus-ish-guy-Swim-Cycle"
     },{
-        "title": "Bubbles",
-        "artist": "EpicFrySauce",
-        "file": "bubbles.gif",
-        "source": "http://www.reddit.com/r/loadingicon/comments/2m1n7e/bubbles/"
-    },{
         "title": "Smooth",
         "artist": "Toofifty",
         "file": "smooth.gif",
